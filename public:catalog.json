@@ -1,0 +1,13 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 [\
+  \{ "id": "p1", "name": "ClimaSense A12", "price": 1199, "tag": "M\'e1s elegido",  "rating": 4.8, "img": "https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=1600&auto=format&fit=crop" \},\
+  \{ "id": "p2", "name": "EcoTherm Aqua 80L", "price": 899,  "tag": "Top eficiencia", "rating": 4.7, "img": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1600&auto=format&fit=crop" \},\
+  \{ "id": "p3", "name": "SilentBreeze S9", "price": 1399, "tag": "Silencioso",    "rating": 4.9, "img": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1600&auto=format&fit=crop" \},\
+  \{ "id": "p4", "name": "DesignGlow LUX", "price": 499, "tag": "Dise\'f1o", "rating": 4.6, "img": "https://images.unsplash.com/photo-1493666438817-866a91353ca9?q=80&w=1600&auto=format&fit=crop" \}\
+]}
