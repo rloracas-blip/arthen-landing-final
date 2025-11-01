@@ -6,12 +6,12 @@ During the Vercel build the step `npm run build` invokes Vite, which reads the p
 import react from '@vitejs/plugin-react'
 ```
 
-Because the plugin is not listed in `package.json`, it is never installed in production environments. Node therefore throws `ERR_MODULE_NOT_FOUND` while resolving the import, causing the build to abort before Vite can compile the application.
+Because the plugin was not listed in `package.json`, it was never installed in production environments. Node therefore threw `ERR_MODULE_NOT_FOUND` while resolving the import, causing the build to abort before Vite could compile the application.
 
-To fix the failure you must add the missing dependency to the dev dependencies section:
+To fix the failure we now declare the plugin in the regular `dependencies` block so it is always installed, even when a build environment skips dev dependencies:
 
 ```json
-"devDependencies": {
+"dependencies": {
   "@vitejs/plugin-react": "^4.3.4"
 }
 ```
